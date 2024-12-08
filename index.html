@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" /><title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+    <body>
+      <main class="all">
+        <div class="var">
+          <a href="#Info" class="v">Info</a>
+          <a href="#continents" class="v">Continents</a>
+          <a href="#Cities" class="v">Cities</a>
+          <a href="#feeling" class="v">Feeling</a>
+          <a href="#favc" class="v">Color</a>
+          <a href="#code" class="v">Coding</a>
+          <a href="#sub" class="v">Subject</a>
+        </div>
+  <div class="menu">
+      <h1 id="title">Survey Form</h1>
+  <p id="description">Thank for filling my form</p>
+</div>
+  <form method="post" action='https://drive.google.com/drive/home' id="survey-form">
+ <div class="mother">
+  <fieldset class="firstf" id="Info">
+    <legend>Personal Info</legend>
+    <div class="once">
+    <label id="name-label">Name <input class="threein" id="name" type="text" required placeholder="Your Name"> </label>
+    <label id="email-label">Email <input class="threein" id="email" type="email" required placeholder="Your Email"> </label>
+    <label id="number-label">Age <input  class="threein" id="number" type="number" min="8" max="100" required placeholder="Your age"></label>
+    <label>Do you like my form?
+      <select id="dropdown">
+      <option>Select one</option>
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+  </label>
+</div>
+    </fieldset>
+    <fieldset id="continents">
+      <legend>Where are you from?</legend>
+      <label><input type="radio"name="continents" value="1"required>Asia</label>
+      <label><input type="radio"name="continents"value="2"required>Africa</label>
+      <label><input type="radio"name="continents"value="3"required>America</label>
+      <label><input type="radio"name="continents"value="4"required>Europe</label>
+      <label><input type="radio" name="continents"value="5" required>Australia</label>
+      </fieldset>
+      <fieldset id="Cities">
+        <legend>If you are  from myanmar</legend>
+        <label><input type="checkbox" value="1">Yangon</label>
+        <label><input type="checkbox"value="1" >Mandalay
+</label>
+        <label><input type="checkbox"value="1" >Pathein</label>
+        <label><input type="checkbox"value="1" >Taunggyi</label>
+        <label><input type="checkbox" value="1">Mawlamyine</label>
+        </fieldset>
+        <fieldset class="lastf" id="feeling">
+          <legend>Share your Feeling</legend>
+          <label> What do you want to tell to me? </label>
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Tell me your feeling"  class="a"></textarea>
+        </fieldset>
+        <fieldset id="favc">
+          <legend>What is your favorite color?</legend>
+          <label><input type="radio"name="color" value="1"required>Red</label>
+          <label><input type="radio"name="color"value="2"required>Green</label>
+          <label><input type="radio"name="color"value="3"required>Yellow</label>
+          <label><input type="radio"name="color"value="4"required>Blue</label>
+          <label><input type="radio" name="color"value="5" required>Orange</label>
+          <label><input type="radio" name="color"value="5" required>Pink</label>
+          <label><input type="radio" name="color"value="5" required>Black</label>
+          <label><input type="radio" name="color"value="5" required>White</label>
+          </fieldset>
+          <fieldset id="code" class="code">
+            <legend>Do you like coding (programming) ?</legend>
+            <label><input type="radio"name="yn" value="1"required>Yes</label>
+            <label><input type="radio"name="yn"value="2"required>No</label>
+            </fieldset>
+            <fieldset id="sub">
+              <legend>What is your favorite subject?</legend>
+              <label><input type="radio"name="sub" value="1"required>Myanmar</label>
+              <label><input type="radio"name="sub"value="2"required>English</label>
+              <label><input type="radio"name="sub"value="3"required>Math</label>
+              <label><input type="radio"name="sub"value="4"required>Chemistry</label>
+              <label><input type="radio" name="sub"value="5" required>Physics</label>
+              <label><input type="radio" name="sub"value="5" required>Biology</label>
+              </fieldset>
+      </div>
+        <div class="submit">
+        <input type="submit" id="submit" value="Submit"/>
+      </div>
+    </main>
+    <footer>      
+      <p>This form is just made for fun</p>
+      <p>You can contact me if you have any question</p>
+      <a href="https://t.me/kogoat" target="_blank">Click Here to Contact</a>
+      <p>Creator : KoGoat</p>
+    </footer>    
+</body>
+</html>

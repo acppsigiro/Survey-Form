@@ -1,0 +1,101 @@
+h1,p{text-align:center;
+    font-family: Sans-Serif;
+    color:white;}
+
+    h1{padding-top:0.5em;}
+    
+    body{background-color:#0a2a2b;}
+    
+    label,legend{color:white;}
+    
+    label{display:block;
+    margin:0.5em;}
+    
+    fieldset{margin:0.5em;
+    width: 500px;
+}
+    
+    input[type="submit"]{margin:1em;
+    height:30px;
+    width:200px}
+    
+    .submit {display: flex;
+    justify-content: center;
+margin-top: 20px;}
+
+    #description {margin-bottom: 40px;
+    font-size: 1.2rem;}
+
+    legend {text-align: center;
+    font-weight: bolder;
+font-size: 20px;}
+    
+    
+
+    .mother {display: flex;
+    justify-content: space-around;
+flex-wrap: wrap;}
+
+/* lastf is short term of last fieldset */
+.lastf {display: flex;
+justify-content: center;
+align-items: center;}
+
+/* firstf is short term of first fieldset */
+
+.once {margin:20px 0;}
+
+.menu {
+margin-bottom: 20px;
+}
+
+.var {position: sticky;
+    top: 0;
+    border-bottom:1px solid #fafafa;
+    background-color: rgba(10, 42, 43, 0.9);
+display: flex;
+justify-content: space-around;
+font-size: 1.1rem;}
+
+.code {font-size: 2.5rem;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;}
+
+.v {padding-bottom: 10px;
+padding-top: 10px;}
+
+#title {opacity: 1;
+font-size:4rem;}
+
+a {color: white;
+text-decoration: none;}
+a:hover {color: lightgreen;}
+
+footer {text-align: center;
+}
+
+textarea:hover {background-color:lightgray;}
+
+.threein {
+width: 150px;
+margin-left: 30px;
+margin-top: 3px; 
+margin-bottom: 3px;}
+
+#number {
+    margin-left: 40px
+}
+
+input , textarea {
+    border-style:none;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.all {max-width: 2024px;;}
+
+@media (max-width:1024px) {
+    .var {font-size: 0.8rem;}
+}
